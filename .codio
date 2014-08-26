@@ -1,0 +1,17 @@
+{
+// Configure your Run and Preview buttons here.
+
+	// Run button configuration
+  "commands": {
+    "Basic": "~/workspace/.guides/restore.sh 01-basic",
+    "Length": "~/workspace/.guides/restore.sh 02-length",
+    "Push": "~/workspace/.guides/restore.sh 03-pushpop",
+    "Remove": "~/workspace/.guides/restore.sh 04-remove",
+    "2 Dimensional": "~/workspace/.guides/restore.sh 05-twodimensional"
+  },
+  
+	// Preview button configuration
+  "preview": {
+        "Preview": "https://{{domain}}/{{index}}"
+  }
+}
