@@ -2,7 +2,7 @@
 title: ARRAYS
 files: []
 editable: true
-layout: ""
+layout: 2-panels-tree
 
 ---
 Arrays can be found in one way or another in all programming languages. We'll see how powerful they are and how easy they are to use and work with.
