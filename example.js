@@ -11,24 +11,37 @@ function play() {
   // ARRAYS
   document.write("ARRAYS<br/><br/>");  
 
-	// SHIFT & POP
-  document.write("SHIFT & POP<br/>");  
+  // BASIC
+  document.write("A SIMPLE ARRAY<br/>");  
   
   var flowers = ["Daisy", "Rose", "Daffodil", "Weed"];
   var i;
-  var shifted, popped;
-  
-  document.write("We're starting with ... ");
-  for(i=0; i<flowers.length; i++) 
-      document.write(flowers[i] + " ");  
-  popped = flowers.pop();
-  shifted = flowers.shift();
-  document.write("<br/><br/>Popped: " + popped + "<br/>");
-  document.write("Shifted: " + shifted + "<br/>");
-  document.write("<br/>And we're left with ...  ");
-  for(i=0; i<flowers.length; i++) 
-      document.write(flowers[i] + " ");
+  for(i=0; i<4; i++) 
+    document.write(flowers[i] + " ");  
 
+	// ANOTHER WAY
+  document.write("<br/><br/>CREATED ANOTHER WAY<br/>");  
+  
+  flowers = [];
+	flowers[0] = "Daisy";
+	flowers[1] = "Rose";
+	flowers[2] = "Daffodil";
+	flowers[3] = "Weed";  
+  for(i=0; i<4; i++) 
+    document.write(flowers[i] + " ");  
+  
+	// YET ANOTHER WAY
+  document.write("<br/><br/>YET ANOTHER WAY<br/>");  
+  
+  flowers = new Array;
+	flowers[0] = "Daisy";
+	flowers[1] = "Rose";
+	flowers[2] = "Daffodil";
+	flowers[3] = "Weed";  
+  for(i=0; i<4; i++) 
+    document.write(flowers[i] + " ");  
+
+  
 }
 
 
