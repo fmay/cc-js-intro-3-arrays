@@ -182,7 +182,7 @@ There are a lot of other things you can do with arrays, such as
 - joining string elements together to form a single string
 - and much more
 
-We don't want to explain all these things in this module, but if you want to sniff around what's available, [refer to this handy reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+We don't want to explain all these things in this module, but if you want to explore what's available, [refer to this handy reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ---
 title: Multi-dimensional arrays
@@ -193,7 +193,7 @@ layout: ""
 ---
 > Select '2 Dimensional' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code.
 
-Our previous flowers examples shows the use of a *one dimensional array*. 
+Our previous flowers examples show the use of a *one dimensional array*. 
 
 You can also create multi-dimensional arrays. In the example below, we are creating a 2 dimensional array and filling it with numbers.
 
