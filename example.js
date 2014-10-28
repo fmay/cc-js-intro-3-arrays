@@ -11,26 +11,36 @@ function play() {
   // ARRAYS
   document.write("ARRAYS<br/><br/>");  
 
- 
-	// 2D ARRAYS
-  document.write("A 2 DIMENSIONAL ARRAY<br/><br/>");  
-  var rows = 3;
-  var cols = 5;
-  var rowCtr, colCtr;
-  var myArray = new Array();
+  // BASIC
+  document.write("A SIMPLE ARRAY<br/>");  
+  
+  var flowers = ["Daisy", "Rose", "Daffodil", "Weed"];
+  var i;
+  for(i=0; i<4; i++) 
+    document.write(flowers[i] + " ");  
 
-  for (rowCtr=0; rowCtr<rows; rowCtr++) {
-    myArray[rowCtr]=new Array();
-    for (colCtr=0;colCtr<cols;colCtr++) {
-      myArray[rowCtr][colCtr]="R" + rowCtr + "C" + colCtr;
-    }
-  }
-  for (rowCtr=0; rowCtr<myArray.length; rowCtr++) {
-    for (colCtr=0; colCtr<myArray[rowCtr].length; colCtr++) {
-      document.write(myArray[rowCtr][colCtr] + " ");
-    }
-    document.write("<br/>");
-  }  
+	// ANOTHER WAY
+  document.write("<br/><br/>CREATED ANOTHER WAY<br/>");  
+  
+  flowers = [];
+	flowers[0] = "Daisy";
+	flowers[1] = "Rose";
+	flowers[2] = "Daffodil";
+	flowers[3] = "Weed";  
+  for(i=0; i<4; i++) 
+    document.write(flowers[i] + " ");  
+  
+	// YET ANOTHER WAY
+  document.write("<br/><br/>YET ANOTHER WAY<br/>");  
+  
+  flowers = new Array;
+	flowers[0] = "Daisy";
+	flowers[1] = "Rose";
+	flowers[2] = "Daffodil";
+	flowers[3] = "Weed";  
+  for(i=0; i<4; i++) 
+    document.write(flowers[i] + " ");  
+
   
 }
 

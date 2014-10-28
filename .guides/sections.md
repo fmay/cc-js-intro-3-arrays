@@ -49,12 +49,15 @@ layout: ""
 Arrays can be found in one way or another in all programming languages. We'll see how powerful they are and how easy they are to use and work with.
 ---
 title: Basic Arrays
-files: []
-editable: false
+files:
+  - path: example.js
+    action: open
+    ref: ""
+editable: true
 layout: ""
 
 ---
-> Select 'Basic' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code.
+>The code for 'Basics' module is already loaded in your project.
 
 Let's look at the following code
 
@@ -106,12 +109,18 @@ layout: ""
 One thing you should know and absorb asap, is the fact that the first element in an array is `flowers[0]` and NOT `flowers[1]`.
 ---
 title: Getting the size of the array
-files: []
-editable: false
+files:
+  - path: "#all"
+    action: close
+    ref: ""
+  - path: "#cmd: bash .guides/restore.sh 02-length, example.js"
+    action: open
+    ref: ""
+editable: true
 layout: ""
 
 ---
-> Select 'Length' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code.
+>We have loaded new content for you but if you need to restore you can do from the ![](.guides/img/rocket.png) Rocket menu, select 'Length'. 
 
 Something very important is being able to determine the number of elements in an array from Javascript.
 
@@ -142,12 +151,18 @@ for(i=0; i<flowers.length; i++)
 ```
 ---
 title: Adding array elements
-files: []
-editable: false
+files:
+  - path: "#all"
+    action: close
+    ref: ""
+  - path: "#cmd: bash .guides/restore.sh 03-pushpop, example.js"
+    action: open
+    ref: ""
+editable: true
 layout: ""
 
 ---
-> Select 'Push' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code.
+>We have loaded new content for you but if you need to restore you can do from the ![](.guides/img/rocket.png) Rocket menu, select 'Push'. 
 
 Adding new array elements is done using the `.push` method.
 
@@ -170,12 +185,18 @@ flowers.push("Daffodil");
 ```
 ---
 title: Removing array elements
-files: []
-editable: false
+files:
+  - path: "#all"
+    action: close
+    ref: ""
+  - path: "#cmd: bash .guides/restore.sh 04-remove, example.js"
+    action: open
+    ref: ""
+editable: true
 layout: ""
 
 ---
-> Select 'Remove' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code.
+>We have loaded new content for you but if you need to restore you can do from the ![](.guides/img/rocket.png) Rocket menu, select 'Remove'. 
 
 
 We can remove the last element in an array using the `.pop` method, or the first element using the `.shift` method.
@@ -223,18 +244,24 @@ There are a lot of other things you can do with arrays, such as
 - joining string elements together to form a single string
 - and much more
 
-We don't want to explain all these things in this module, but if you want to explore what's available, [refer to this handy reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+We don't want to explain all these things in this module, but if you want to sniff around what's available, [refer to this handy reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ---
 title: Multi-dimensional arrays
-files: []
-editable: false
+files:
+  - path: "#all"
+    action: close
+    ref: ""
+  - path: "#cmd: bash .guides/restore.sh 05-twodimensional, example.js"
+    action: open
+    ref: ""
+editable: true
 layout: ""
 
 ---
-> Select '2 Dimensional' from the ![](.guides/img/rocket.png) Rocket menu at the top to load some code.
+>We have loaded new content for you but if you need to restore you can do from the ![](.guides/img/rocket.png) Rocket menu, select '2 Dimensional'. 
 
-Our previous flowers examples show the use of a *one dimensional array*. 
+Our previous flowers examples shows the use of a *one dimensional array*. 
 
 You can also create multi-dimensional arrays. In the example below, we are creating a 2 dimensional array and filling it with numbers.
 
